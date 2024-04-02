@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta name="viewport" content="eith=device=width, initial-scale=1.0">
+    <title>Technology and Innovation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/tag.jpeg"></a>
+            <div class="nav-links" id= "navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                <li><a href="index.html">HOME</a></li>
+                   <li><a href="about.html">ABOUT</a></li>
+                  
+                   <li><a href="blog.html">BLOG</a></li>
+                   <li><a href="contact.html">CONTACT</a></li>
+               </ul> 
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>  
+         </nav>
+             <h1>About Us</h1>
+          </section>
+
+          <!------about us content----->
+          <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                   <h1>Technology and Innovation</h1>
+                   <div class="about-col">
+                    <img src="images/ab.webp">
+                 </div>
+                   <h3>Explore Tomorrow's Tech Today</h3>
+                   <p>Step into the forefront of innovation as we explore emerging technologies that are revolutionizing how we live, work, and interact. From artificial intelligence and blockchain to renewable energy and space exploration, our curated content offers insights into the technologies driving progress and transforming possibilities.</p>
+                  <h3>-Insightful Analysis and Expert Perspectives
+                </h3>
+                  <p>Gain a deeper understanding of technological advancements with our insightful analysis and expert perspectives. Our team of industry insiders and thought leaders provides in-depth articles, interviews, and opinion pieces, offering valuable perspectives on the opportunities and challenges shaping the technological landscape.</p>
+                  <h3>-Inspiring Stories of Innovation
+                </h3>
+                  <p>Discover the stories behind the innovations that are changing the world. From groundbreaking startups to established tech giants, we highlight inspiring stories of entrepreneurship, resilience, and visionary leadership driving transformative change across industries.</p>
+                  <h3>-Join Our Community</h3>
+                  <p>Join a vibrant community of like-minded individuals passionate about technology and innovation. Engage in meaningful discussions, share your insights, and connect with fellow innovators from around the globe. Together, let's shape the future and unlock the limitless possibilities of tomorrow's world.</p>
+                  <h3>-Start Your Journey with Technology and Innovation Today
+                </h3>
+                  <p>Embark on a journey of discovery and inspiration with [Your Website Name]. Whether you're a curious newcomer or a seasoned technologist, there's something here for everyone. Explore, learn, and be inspired as we chart the course towards a brighter, more innovative future together.</p>
+                   <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+                 </div>
+                  
+                 </div>
+             </section>
+
+
+
+       <!----footer---->
+     <section class="footer">
+     <h4>About Us</h4>
+     <p>You can contact us in the contact page.</p>
+     <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p> <i class="fa fa-heart-o"></i> </p>
+</section>
+
+<!--------JavaScript for toggle menu------>
+ <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+ </script>     
+
+</body>
+</html>

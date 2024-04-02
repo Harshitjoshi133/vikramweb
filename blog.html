@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta name="viewport" content="eith=device=width, initial-scale=1.0">
+    <title>Technology and Innovation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/tag.jpeg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                <li><a href="index.html">HOME</a></li>
+                   <li><a href="about.html">ABOUT</a></li>
+                   
+                   <li><a href="blog.html">BLOG</a></li>
+                   <li><a href="contact.html">CONTACT</a></li>
+               </ul> 
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>  
+         </nav>
+             <h1>Online Programs</h1>
+          </section>
+
+          <!--------blog page content----->
+          <section class="blog-content">
+
+            <div class="row">
+                <div class="blog-left">
+                    
+                    <h2>Online Program</h2>
+                    <p>Welcome to InnovateTechHub, your go-to destination for all things related to technology and innovation. Our project website is dedicated to showcasing the latest advancements, groundbreaking ideas, and emerging trends that are shaping the future. Whether you're a tech enthusiast, an entrepreneur, or simply curious about the possibilities of tomorrow, you'll find a wealth of information and inspiration here.
+
+                        At InnovateTechHub, we believe in the power of innovation to drive positive change and improve lives. Through insightful articles, expert interviews, and thought-provoking discussions, we aim to foster a community of like-minded individuals passionate about pushing the boundaries of what's possible.
+                        
+                        From artificial intelligence and machine learning to biotech and renewable energy, we cover a wide range of topics at the forefront of innovation. Our project website serves as a platform for sharing knowledge, sparking creativity, and connecting innovators from around the globe.
+                        
+                        Join us on this exciting journey as we explore tomorrow's frontiers together. Whether you're looking to stay informed, collaborate on projects, or simply be inspired, InnovateTechHub is your gateway to the future. Let's innovate, create, and shape a better world, one idea at a time.</p>
+                    <div class="comment-box">
+                        <h3>Leave a comment</h3>
+                        <from class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="text" placeholder="Enter Name">
+                            <textarea rows="5" placeholder="Your Comment"></textarea>
+                            <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+
+                        </from>
+                    </div>
+                    
+                </div>
+               
+
+                </div>
+            </div>  
+          </section>
+
+          
+
+
+        
+
+
+       <!----footer---->
+     <section class="footer">
+     <h4>About Us</h4>
+     <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p> <i class="fa fa-heart-o"></i></p>
+</section>
+
+<!--------JavaScript for toggle menu------>
+ <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+ </script>     
+
+</body>
+</html>

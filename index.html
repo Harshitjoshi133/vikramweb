@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta name="viewport" content="eith=device=width, initial-scale=1.0">
+    <title>Technology and Innovation</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="header">
+        <nav>
+            <a href="index.html"><img src="images/tag.jpeg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                <li><a href="index.html">HOME</a></li>
+                   <li><a href="about.html">ABOUT</a></li>
+                
+                   <li><a href="blog.html">BLOG</a></li>
+                   <li><a href="contact.html">CONTACT</a></li>
+               </ul> 
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>  
+        </nav>
+
+  <div class="text-box">
+       <h1>Technology and Innovation</h1>
+       <h2>"Technology and innovation: forging the future, one breakthrough at a time."       </h2>
+       <p>InnovateTechHub is more than just a website; it's a digital ecosystem where ideas flourish, innovations thrive, and connections are made. Our platform is designed to be a hub of creativity and collaboration, where individuals and organizations come together to explore, learn, and innovate.
+
+        Through our curated content, interactive forums, and networking opportunities, InnovateTechHub provides a space for aspiring innovators and seasoned professionals alike to engage with the latest advancements in technology and innovation. Whether you're a startup founder seeking guidance, a researcher looking to share your latest findings, or a student eager to dive into the world of STEM, you'll find a welcoming community and a wealth of resources at your fingertips.
+        
+        But we're more than just a repository of information; we're a catalyst for action. InnovateTechHub actively encourages experimentation, risk-taking, and thinking outside the box. We believe that innovation thrives in an environment where diverse perspectives are valued, failure is seen as a stepping stone to success, and collaboration is celebrated.
+        
+        Join us at InnovateTechHub and become part of a global movement dedicated to pushing the boundaries of what's possible. Together, let's harness the power of technology and innovation to create a brighter, more sustainable future for all.
+        
+        </p>
+        <p>At InnovateTechHub, we are driven by a singular mission: to inspire, empower, and connect innovators around the world. Our website serves as a digital oasis where curiosity meets creativity, and where the seeds of innovation are nurtured into groundbreaking solutions.
+
+            Through our comprehensive platform, users can explore a myriad of topics spanning the entire spectrum of technology and innovation. From cutting-edge developments in artificial intelligence and robotics to the latest breakthroughs in sustainable energy and space exploration, we cover it all.
+            
+            But InnovateTechHub is more than just a source of information—it's a dynamic community where ideas are born, refined, and brought to life. Our interactive features, such as virtual workshops, hackathons, and collaborative projects, provide opportunities for individuals to engage with like-minded peers, share expertise, and co-create solutions to some of the world's most pressing challenges.</p>
+       <a href="" class="hero-btn">Visit Us To Know More</a>
+  </div>
+    </section>
+
+
+<!----Call To Action----->
+
+
+<!----Footer----->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>You can contact us in the contact page.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Easy Tutorials</p>
+</section>
+
+<!--------JavaScript for toggle menu------>
+ <script>
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+ </script>     
+
+</body>
+</html>
